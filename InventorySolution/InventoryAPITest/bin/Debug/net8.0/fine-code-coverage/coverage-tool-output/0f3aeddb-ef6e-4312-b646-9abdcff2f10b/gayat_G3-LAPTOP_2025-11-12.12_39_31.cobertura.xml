@@ -1,0 +1,1630 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage line-rate="0.14437367303609341" branch-rate="0.019230769230769232" complexity="140" version="1.9" timestamp="1762931371" lines-covered="68" lines-valid="471" branches-covered="1" branches-valid="52">
+  <packages>
+    <package line-rate="0.8214285714285714" branch-rate="1" complexity="5" name="InventoryAPITest">
+      <classes>
+        <class line-rate="0.85185185185185186" branch-rate="1" complexity="4" name="InventoryAPITest.Tests" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\ProductRepositoryTest.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="Setup" signature="()">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="ProductAddSuccessTest" signature="(int, string, decimal, int, bool)">
+              <lines>
+                <line number="25" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="ProductGetProductByIdExceptionTest" signature="()">
+              <lines>
+                <line number="45" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="TearDown" signature="()">
+              <lines>
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="InventoryAPITest.Tests.&lt;&gt;c__DisplayClass3_0" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\ProductRepositoryTest.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;ProductGetProductByIdExceptionTest&gt;b__0" signature="()">
+              <lines>
+                <line number="50" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="50" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package line-rate="0.10158013544018059" branch-rate="0.019230769230769232" complexity="135" name="InventoryAPI">
+      <classes>
+        <class line-rate="0" branch-rate="0" complexity="4" name="Program" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Program.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="4" name="&lt;Main&gt;$" signature="(string[])">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="14" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="0" branch="False" />
+                <line number="22" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="14" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="7" name="InventoryAPI.WeatherForecast" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\WeatherForecast.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Date" signature="()">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Date" signature="(System.DateOnly)">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_TemperatureC" signature="()">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_TemperatureC" signature="(int)">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_TemperatureF" signature="()">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Summary" signature="()">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Summary" signature="(string)">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.23076923076923078" branch-rate="0" complexity="5" name="InventoryAPI.Repositories.ProductRepository" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Repositories\ProductRepository.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(InventoryAPI.Contexts.InventoryContext)">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="2" name="GetAll" signature="()">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="2" name="GetById" signature="(int)">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="25" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.34482758620689657" branch-rate="0.16666666666666666" complexity="7" name="InventoryAPI.Repositories.Repository&lt;K, T&gt;" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Repositories\Repository.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(InventoryAPI.Contexts.InventoryContext)">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0.8571428571428571" branch-rate="0.5" complexity="2" name="Add" signature="(T)">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="2" name="Delete" signature="(K)">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="2" name="Update" signature="(K, T)">
+              <lines>
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="11" name="InventoryAPI.Models.Invoice" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Models\Invoice.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_InvoiceNumber" signature="()">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_InvoiceNumber" signature="(int)">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Amount" signature="()">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Amount" signature="(float)">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_InvoiceDate" signature="()">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_InvoiceDate" signature="(System.DateTime)">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Status" signature="()">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Status" signature="(string)">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Products" signature="()">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Products" signature="(System.Collections.Generic.ICollection&lt;InventoryAPI.Models.InvoiceProduct&gt;)">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name=".ctor" signature="()">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="14" name="InventoryAPI.Models.InvoiceProduct" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Models\InvoiceProduct.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Sno" signature="()">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Sno" signature="(int)">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_ProductId" signature="()">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_ProductId" signature="(int)">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_InvoiceNumber" signature="()">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_InvoiceNumber" signature="(int)">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Quantity" signature="()">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Quantity" signature="(int)">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Price" signature="()">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Price" signature="(decimal)">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Product" signature="()">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Product" signature="(InventoryAPI.Models.Product)">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Invoice" signature="()">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Invoice" signature="(InventoryAPI.Models.Invoice)">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.46666666666666667" branch-rate="1" complexity="15" name="InventoryAPI.Models.Product" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Models\Product.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Id" signature="()">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_Id" signature="(int)">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Title" signature="()">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_Title" signature="(string)">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Price" signature="()">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_Price" signature="(decimal)">
+              <lines>
+                <line number="7" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_StockInHand" signature="()">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_StockInHand" signature="(int)">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_IsAvailable" signature="()">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_IsAvailable" signature="(bool)">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_ProductImage" signature="()">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_ProductImage" signature="(string)">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Invoices" signature="()">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="set_Invoices" signature="(System.Collections.Generic.ICollection&lt;InventoryAPI.Models.InvoiceProduct&gt;)">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="()">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="1" branch="False" />
+            <line number="7" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="13" name="InventoryAPI.Migrations.Invoice" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Migrations\20251112054324_Invoice.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="12" name="Up" signature="(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="29" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="46" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                    <condition number="1" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="Down" signature="(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+              <lines>
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="95" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+                <condition number="1" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="15" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="29" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+                <condition number="1" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="30" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="46" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+                <condition number="1" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="47" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="95" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="12" name="InventoryAPI.Migrations.Invoice" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Migrations\20251112054324_Invoice.Designer.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="12" name="BuildTargetModel" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="50" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="72" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="77" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+                <line number="95" hits="0" branch="False" />
+                <line number="99" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="107" hits="0" branch="False" />
+                <line number="114" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="120" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="125" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="130" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="28" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="50" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="72" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="77" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="95" hits="0" branch="False" />
+            <line number="99" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="107" hits="0" branch="False" />
+            <line number="114" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="120" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="125" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="130" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="12" name="InventoryAPI.Migrations.InventoryContextModelSnapshot" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Migrations\InventoryContextModelSnapshot.cs">
+          <methods>
+            <method line-rate="0" branch-rate="0" complexity="12" name="BuildModel" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="20" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="42" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="74" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="96" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="104" hits="0" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="117" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="122" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="127" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="20" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="25" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="42" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="47" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="74" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="96" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="104" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="117" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="122" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="127" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="3" name="InventoryAPI.Controllers.DummyController" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Controllers\DummyController.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="Get" signature="()">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="Post" signature="(string)">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name=".cctor" signature="()">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="0" complexity="4" name="InventoryAPI.Controllers.WeatherForecastController" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Controllers\WeatherForecastController.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name=".ctor" signature="(Microsoft.Extensions.Logging.ILogger&lt;InventoryAPI.Controllers.WeatherForecastController&gt;)">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="0" complexity="2" name="Get" signature="()">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name=".cctor" signature="()">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.8928571428571429" branch-rate="1" complexity="8" name="InventoryAPI.Contexts.InventoryContext" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Contexts\InventoryContext.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions)">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Products" signature="()">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_Products" signature="(Microsoft.EntityFrameworkCore.DbSet&lt;InventoryAPI.Models.Product&gt;)">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_Invoices" signature="()">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_Invoices" signature="(Microsoft.EntityFrameworkCore.DbSet&lt;InventoryAPI.Models.Invoice&gt;)">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="get_InvoiceProducts" signature="()">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="set_InvoiceProducts" signature="(Microsoft.EntityFrameworkCore.DbSet&lt;InventoryAPI.Models.InvoiceProduct&gt;)">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="1" branch-rate="1" complexity="1" name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="Program.&lt;&gt;c" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Program.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;&lt;Main&gt;$&gt;b__0_0" signature="(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="6" name="InventoryAPI.Migrations.Invoice.&lt;&gt;c" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Migrations\20251112054324_Invoice.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;Up&gt;b__0_0" signature="(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;Up&gt;b__0_1" signature="(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder&lt;&lt;&gt;f__AnonymousType0&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;&gt;&gt;)">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;Up&gt;b__0_2" signature="(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)">
+              <lines>
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;Up&gt;b__0_3" signature="(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder&lt;&lt;&gt;f__AnonymousType1&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;&gt;&gt;)">
+              <lines>
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;Up&gt;b__0_4" signature="(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)">
+              <lines>
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;Up&gt;b__0_5" signature="(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder&lt;&lt;&gt;f__AnonymousType2&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;, Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder&lt;Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation&gt;&gt;&gt;)">
+              <lines>
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="6" name="InventoryAPI.Migrations.Invoice.&lt;&gt;c" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Migrations\20251112054324_Invoice.Designer.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildTargetModel&gt;b__2_0" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildTargetModel&gt;b__2_1" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildTargetModel&gt;b__2_2" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildTargetModel&gt;b__2_3" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+                <line number="110" hits="0" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="115" hits="0" branch="False" />
+                <line number="117" hits="0" branch="False" />
+                <line number="118" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildTargetModel&gt;b__2_4" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="False" />
+                <line number="123" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildTargetModel&gt;b__2_5" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="False" />
+                <line number="128" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="110" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="115" hits="0" branch="False" />
+            <line number="117" hits="0" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="False" />
+            <line number="128" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="6" name="InventoryAPI.Migrations.InventoryContextModelSnapshot.&lt;&gt;c" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Migrations\InventoryContextModelSnapshot.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildModel&gt;b__0_0" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildModel&gt;b__0_1" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildModel&gt;b__0_2" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildModel&gt;b__0_3" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+                <line number="110" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="114" hits="0" branch="False" />
+                <line number="115" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildModel&gt;b__0_4" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="118" hits="0" branch="False" />
+                <line number="119" hits="0" branch="False" />
+                <line number="120" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;BuildModel&gt;b__0_5" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder)">
+              <lines>
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="110" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="114" hits="0" branch="False" />
+            <line number="115" hits="0" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="119" hits="0" branch="False" />
+            <line number="120" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0" branch-rate="1" complexity="1" name="InventoryAPI.Controllers.WeatherForecastController.&lt;&gt;c" filename="C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI\Controllers\WeatherForecastController.cs">
+          <methods>
+            <method line-rate="0" branch-rate="1" complexity="1" name="&lt;Get&gt;b__3_0" signature="(int)">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
