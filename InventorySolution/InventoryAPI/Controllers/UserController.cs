@@ -1,6 +1,7 @@
 ﻿using InventoryAPI.Interfaces;
 using InventoryAPI.Models.Dtos;
 using InventoryAPI.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 
 using Microsoft.AspNetCore.Mvc;
@@ -9,6 +10,7 @@ namespace InventoryAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowAll")]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;

@@ -87,3 +87,22 @@ LIMIT 2
 INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
 VALUES (@p0, @p1, @p2, @p3, @p4)
 RETURNING "Id";
+2025-11-13 08:30:44,659 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 08:30:44,726 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 08:30:44,728 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 08:30:44,730 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 08:30:57,099 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (19ms) [Parameters=[@__key_0='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 08:30:57,169 [.NET TP Worker] INFO InventoryAPI.Controllers.UserController - No such user with username string
+2025-11-13 08:35:27,322 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 08:35:27,397 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 08:35:27,400 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 08:35:27,405 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 08:35:36,715 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
