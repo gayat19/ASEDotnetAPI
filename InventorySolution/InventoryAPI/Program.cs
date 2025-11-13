@@ -21,13 +21,18 @@ builder.Services.AddDbContext<InventoryContext>(opts =>
 });
 
 builder.Services.AddAutoMapper(typeof(Product));
+#region Logging
+builder.Logging.AddLog4Net();
+#endregion
 
 #region Repositories
 builder.Services.AddScoped<IRepository<int, Product>,ProductRepository>();
+builder.Services.AddScoped<IRepository<string,User>,UserRepository>();
 #endregion
 
 #region Services
 builder.Services.AddScoped<IProductService,ProductService>();
+builder.Services.AddScoped<IUserService,UserService>();
 #endregion
 
 var app = builder.Build();

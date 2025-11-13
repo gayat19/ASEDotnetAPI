@@ -10,6 +10,8 @@ namespace InventoryAPI.Misc
         {
             CreateMap<AddProductRequest,Product>()
                 .ForMember(dest => dest.ProductImage, opt => opt.MapFrom(src => src.Image));
+            CreateMap<LoginRequest, User>();
+            CreateMap<RegisterRequest, User>();
         }
     }
 }

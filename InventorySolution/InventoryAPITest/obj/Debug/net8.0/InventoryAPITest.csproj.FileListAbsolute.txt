@@ -146,3 +146,6 @@ C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\o
 C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\obj\Debug\net8.0\InventoryAPITest.genruntimeconfig.cache
 C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\obj\Debug\net8.0\ref\InventoryAPITest.dll
 C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPITest\obj\Debug\net8.0\InventoryAPITest.sourcelink.json

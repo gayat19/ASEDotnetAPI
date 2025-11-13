@@ -33,8 +33,13 @@ namespace InventoryAPI.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Username")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("InvoiceNumber")
                         .HasName("PK_InvoiceNumber");
+
+                    b.HasIndex("Username");
 
                     b.ToTable("Invoices");
                 });
@@ -91,6 +96,37 @@ namespace InventoryAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("InventoryAPI.Models.User", b =>
+                {
+                    b.Property<string>("Username")
+                        .HasColumnType("TEXT");
+
+                    b.Property<byte[]>("Password")
+                        .IsRequired()
+                        .HasColumnType("BLOB");
+
+                    b.Property<byte[]>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("BLOB");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Username");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("InventoryAPI.Models.Invoice", b =>
+                {
+                    b.HasOne("InventoryAPI.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("Username");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("InventoryAPI.Models.InvoiceProduct", b =>

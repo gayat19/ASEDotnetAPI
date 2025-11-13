@@ -1,0 +1,35 @@
+2025-11-13 06:50:25,658 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 06:50:25,709 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 06:50:25,712 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 06:50:25,715 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 06:50:27,123 [.NET TP Worker] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/User" for actions - InventoryAPI.Controllers.UserController.Login (InventoryAPI),InventoryAPI.Controllers.UserController.Register (InventoryAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-13 06:51:45,550 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 06:51:45,631 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 06:51:45,634 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 06:51:45,636 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 06:58:12,295 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 06:58:12,395 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 06:58:12,398 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 06:58:12,401 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 06:58:39,065 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (46ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (Size = 32) (DbType = Binary), @p2='?' (Size = 64) (DbType = Binary), @p3='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Users" ("Username", "Password", "PasswordHash", "Role")
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-13 06:59:45,315 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 07:00:05,871 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 07:00:05,959 [.NET TP Worker] ERROR InventoryAPI.Controllers.UserController - Invalid Password
