@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryAPITest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8a84ee758bc8cfc786451e2d7a680bdb2666bf0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c35246398a94c79f447261941e62b80e6a1be0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryAPITest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryAPITest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background: rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(6px);
+            color: #fff;
+            padding: 12px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar-title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .navbar-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .btn-nav {
+            border: 1px solid #fff;
+            background: transparent;
+            color: #fff;
+            padding: 6px 14px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+
+        .btn-nav:hover {
+            background: rgba(255,255,255,0.18);
+        }
+
+        .page-container {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .search-card {
+            background: #fff;
+            border-radius: 14px;
+            padding: 18px 20px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.16);
+            animation: fadeIn 0.7s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .search-title {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .search-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px 16px;
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        label {
+            font-size: 13px;
+            color: #444;
+            font-weight: 600;
+        }
+
+        input, select {
+            padding: 8px 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+
+        input:focus, select:focus {
+            border-color: #2575fc;
+            box-shadow: 0 0 5px rgba(37,117,252,0.3);
+            outline: none;
+        }
+
+        .search-actions {
+            margin-top: 6px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary, .btn-secondary {
+            padding: 9px 16px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: 0.2s;
+        }
+
+        .btn-primary {
+            background: #2575fc;
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background: #1b5edb;
+        }
+
+        .btn-secondary {
+            background: #f4f4f4;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+
+        .btn-secondary:hover {
+            background: #e6e6e6;
+        }
+
+        .hint {
+            font-size: 11px;
+            color: #777;
+        }
+
+        .content-card {
+            flex: 1;
+            background: #fff;
+            border-radius: 14px;
+            padding: 18px 20px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.16);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .content-header h2 {
+            font-size: 18px;
+            color: #222;
+        }
+
+        .loader {
+            display: none;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #2575fc;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            animation: spin 0.8s linear infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .message {
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        .message.error {
+            color: #d9534f;
+        }
+
+        .message.info {
+            color: #555;
+        }
+
+        .products-grid {
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px;
+        }
+
+        .product-card {
+            border-radius: 12px;
+            border: 1px solid #eee;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            transition: 0.2s;
+        }
+
+        .product-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            transform: translateY(-2px);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 140px;
+            border-radius: 10px;
+            object-fit: cover;
+            background: #f3f3f3;
+        }
+
+        .product-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #222;
+        }
+
+        .product-price {
+            font-size: 14px;
+            color: #2575fc;
+            font-weight: 600;
+        }
+
+        .product-meta {
+            font-size: 13px;
+            color: #555;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .badge {
+            padding: 3px 8px;
+            border-radius: 999px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .badge.in-stock {
+            background: #e6f7ec;
+            color: #2e8b57;
+        }
+
+        .badge.out-stock {
+            background: #fde6e6;
+            color: #b22222;
+        }
+
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navbar-title">Product Catalog</div>
+        <div class="navbar-actions">
+            <button class="btn-nav" onclick="goToHome()">Add Product</button>
+            <button class="btn-nav" onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <div class="page-container">
+        <!-- Search card -->
+        <div class="search-card">
+            <div class="search-title">Search Products</div>
+
+            <div class="search-grid">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input id="title" type="text" placeholder="Search by title..." />
+                </div>
+
+                <div class="form-group">
+                    <label for="minPrice">Min Price</label>
+                    <input id="minPrice" type="number" step="0.01" placeholder="e.g. 100" />
+                </div>
+
+                <div class="form-group">
+                    <label for="maxPrice">Max Price</label>
+                    <input id="maxPrice" type="number" step="0.01" placeholder="e.g. 500" />
+                </div>
+
+                <div class="form-group">
+                    <label for="isInStock">Stock Filter</label>
+                    <select id="isInStock">
+                        <option value="">Any</option>
+                        <option value="true">In Stock Only</option>
+                        <option value="false">Out of Stock Only</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="sortOrder">Sort by Price</label>
+                    <select id="sortOrder">
+                        <option value="1">Ascending</option>
+                        <option value="-1">Descending</option>
+                    </select>
+                    <div class="hint">Maps to SortOrder in ProductSearchDto</div>
+                </div>
+            </div>
+
+            <div class="search-actions">
+                <button class="btn-primary" onclick="loadProducts()">Search</button>
+                <button class="btn-secondary" onclick="resetFilters()">Reset</button>
+            </div>
+        </div>
+
+        <!-- Content card -->
+        <div class="content-card">
+            <div class="content-header">
+                <h2>Products</h2>
+                <div style="display:flex;align-items:center;">
+                    <span id="countInfo" class="hint"></span>
+                    <div id="loader" class="loader"></div>
+                </div>
+            </div>
+
+            <div id="message" class="message"></div>
+
+            <div id="productsContainer" class="products-grid"></div>
+        </div>
+    </div>
+
+    <script>
+        // const token = localStorage.getItem("token");
+        const token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlhZWiIsInJvbGUiOiJVc2VyIiwibmJmIjoxNzYzMDA5NTQyLCJleHAiOjE3NjMwMTAxNDIsImlhdCI6MTc2MzAwOTU0Mn0.FxCy1jK6JL0d00Bhx0cWvxDsgsdOPEqTDpZQP1_WCA8";
+        // If token missing, redirect to login
+        // if (!token) {
+        //     window.location.href = "index.html";
+        // }
+
+        function logout() {
+            localStorage.removeItem("token");
+            window.location.href = "index.html";
+        }
+
+        function goToHome() {
+            window.location.href = "home.html"; // add product page
+        }
+
+        function resetFilters() {
+            document.getElementById("title").value = "";
+            document.getElementById("minPrice").value = "";
+            document.getElementById("maxPrice").value = "";
+            document.getElementById("isInStock").value = "";
+            document.getElementById("sortOrder").value = "1";
+            loadProducts();
+        }
+
+        async function loadProducts() {
+            const title = document.getElementById("title").value.trim();
+            const minPrice = document.getElementById("minPrice").value.trim();
+            const maxPrice = document.getElementById("maxPrice").value.trim();
+            const isInStockValue = document.getElementById("isInStock").value;
+            const sortOrderValue = document.getElementById("sortOrder").value;
+
+            const loader = document.getElementById("loader");
+            const messageEl = document.getElementById("message");
+            const productsContainer = document.getElementById("productsContainer");
+            const countInfo = document.getElementById("countInfo");
+
+            messageEl.textContent = "";
+            messageEl.className = "message";
+            productsContainer.innerHTML = "";
+            countInfo.textContent = "";
+
+            // Build ProductSearchDto body
+            let isInStock = null;
+            if (isInStockValue === "true") isInStock = true;
+            else if (isInStockValue === "false") isInStock = false;
+
+            let min = null;
+            let max = null;
+
+            if (minPrice !== "") {
+                const parsedMin = parseFloat(minPrice);
+                if (!isNaN(parsedMin)) min = parsedMin;
+            }
+
+            if (maxPrice !== "") {
+                const parsedMax = parseFloat(maxPrice);
+                if (!isNaN(parsedMax)) max = parsedMax;
+            }
+
+            let priceRange = null;
+            if (min !== null || max !== null) {
+                priceRange = { min: min, max: max };
+            }
+
+            const sortOrder = parseInt(sortOrderValue, 10) || 1;
+
+            const searchDto = {
+                title: title || null,
+                priceRange: priceRange,
+                isInStock: isInStock,
+                sortOrder: sortOrder
+            };
+
+            loader.style.display = "inline-block";
+
+            try {
+                const response = await fetch("http://localhost:5180/api/Product", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "Authorization": "Bearer " + token
+                    },
+                    body: JSON.stringify(searchDto)
+                });
+
+                loader.style.display = "none";
+
+                if (response.status === 401 || response.status === 403) {
+                    messageEl.textContent = "Unauthorized. Please login again.";
+                    messageEl.classList.add("error");
+                    localStorage.removeItem("token");
+                   // setTimeout(() => window.location.href = "index.html", 1500);
+                    return;
+                }
+
+                if (!response.ok) {
+                    const errorText = await response.text().catch(() => "");
+                    messageEl.textContent = errorText || "Failed to load products.";
+                    messageEl.classList.add("error");
+                    return;
+                }
+
+                const products = await response.json();
+
+                if (!Array.isArray(products) || products.length === 0) {
+                    messageEl.textContent = "No products found for the given criteria.";
+                    messageEl.classList.add("info");
+                    countInfo.textContent = "";
+                    return;
+                }
+
+                countInfo.textContent = products.length + " result(s)";
+
+                products.forEach(p => {
+                    const card = document.createElement("div");
+                    card.className = "product-card";
+
+                    const img = document.createElement("img");
+                    img.className = "product-image";
+                    if (p.image) {
+                        img.src = p.image;
+                        img.alt = p.title;
+                    } else {
+                        img.alt = "No image";
+                    }
+
+                    const titleEl = document.createElement("div");
+                    titleEl.className = "product-title";
+                    titleEl.textContent = p.title + " (ID: " + p.id + ")";
+
+                    const priceEl = document.createElement("div");
+                    priceEl.className = "product-price";
+                    // handle plain number or already-decimal
+                    const priceNumber = typeof p.price === "number" ? p.price : parseFloat(p.price);
+                    priceEl.textContent = "₹ " + (isNaN(priceNumber) ? p.price : priceNumber.toFixed(2));
+
+                    const meta = document.createElement("div");
+                    meta.className = "product-meta";
+
+                    const stockText = document.createElement("span");
+                    stockText.textContent = "Stock: " + p.stockInHand;
+
+                    const badge = document.createElement("span");
+                    badge.className = "badge " + (p.stockInHand > 0 ? "in-stock" : "out-stock");
+                    badge.textContent = p.stockInHand > 0 ? "In Stock" : "Out of Stock";
+
+                    meta.appendChild(stockText);
+                    meta.appendChild(badge);
+
+                    card.appendChild(img);
+                    card.appendChild(titleEl);
+                    card.appendChild(priceEl);
+                    card.appendChild(meta);
+
+                    productsContainer.appendChild(card);
+                });
+
+            } catch (err) {
+                loader.style.display = "none";
+                console.error(err);
+                messageEl.textContent = "Unable to connect to server.";
+                messageEl.classList.add("error");
+            }
+        }
+
+        // Initial load
+        window.addEventListener("DOMContentLoaded", loadProducts);
+    </script>
+</body>
+</html>

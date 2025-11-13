@@ -170,12 +170,12 @@
                 const data = await response.json();
                 console.log("Login success:", data);
 
-
+                 localStorage.setItem("token", data.token);
                 alert("Login Successful!");
-                localStorage.setItem("token", data.token);
+               
 
                 // Redirect — change as needed
-                window.location.href = "home.html";
+                window.location.href = "Products.html";
 
             } catch (error) {
                 loader.style.display = "none";

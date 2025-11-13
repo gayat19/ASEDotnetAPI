@@ -7,3 +7,10 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 https://www.sridharandev.com/2025/04/linq-in-csharp-tutorial-for-beginners.html
 
 https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design
+
+https://refactoring.guru/design-patterns/csharp
+
+https://www.geeksforgeeks.org/system-design/solid-principle-in-programming-understand-with-real-life-examples/
+
+
+Scaffold-DbContext "<COnnection STring here>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

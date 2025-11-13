@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\misc\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\misc\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +42,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Repositories\\Repository.cs",
+              "RelativeToolTip": "InventoryAPI\\Repositories\\Repository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:12:56.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Program.cs",
+              "RelativeToolTip": "InventoryAPI\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAFAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:07:14.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\ProductController.cs*",
-              "RelativeToolTip": "InventoryAPI\\Controllers\\ProductController.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwDQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "InventoryAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T03:41:42.448Z",
               "EditorCaption": ""
@@ -64,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\ProductDto.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Models\\Dtos\\ProductDto.cs",
               "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\ProductDto.cs",
               "RelativeToolTip": "InventoryAPI\\Models\\Dtos\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T03:34:53.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ProductMapper.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Misc\\ProductMapper.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Misc\\ProductMapper.cs",
@@ -85,12 +119,11 @@
               "RelativeToolTip": "InventoryAPI\\Misc\\ProductMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T03:34:35.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T03:34:35.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Services\\ProductService.cs",
@@ -98,18 +131,17 @@
               "RelativeToolTip": "InventoryAPI\\Services\\ProductService.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAuwCMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T03:33:49.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T03:33:49.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Interfaces\\IProductService.cs",
               "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\IProductService.cs",
               "RelativeToolTip": "InventoryAPI\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T03:33:10.746Z",
               "EditorCaption": ""

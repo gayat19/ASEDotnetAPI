@@ -162,3 +162,77 @@ FROM "Products" AS "p"
 2025-11-13 09:15:02,664 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
 FROM "Products" AS "p"
+2025-11-13 10:03:42,765 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 10:03:43,074 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 10:03:43,078 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 10:03:43,082 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 10:04:14,074 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (18ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:05:02,425 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:05:18,373 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:05:18,455 [.NET TP Worker] INFO InventoryAPI.Controllers.UserController - No such user with username xyz
+2025-11-13 10:05:25,570 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:06:44,112 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:12:46,835 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:13:36,838 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:14:06,280 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:15:06,150 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:15:41,816 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:16:09,842 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:17:11,182 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 10:22:04,004 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 10:22:04,065 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 10:22:04,068 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 10:22:04,070 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 10:22:22,367 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2

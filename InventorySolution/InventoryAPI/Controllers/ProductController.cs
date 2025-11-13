@@ -34,7 +34,7 @@ namespace InventoryAPI.Controllers
                 return BadRequest(e.Message);
             }
         }
-        [Authorize]
+        //[Authorize]
         [HttpPost("GetProducts")]
         public ActionResult GetAllProducts([FromBody] ProductSearchDto? searchDto)
         {

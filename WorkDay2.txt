@@ -1,0 +1,30 @@
+Authentication
+Authorization
+
+<log4net>
+	<root>
+		<level value="ALL" />
+		<appender-ref ref="RollingFile" />
+	</root>
+
+	<appender name="RollingFile" type="log4net.Appender.FileAppender">
+		<file value="main.log" />
+
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%date [%thread] %level %logger - %message%newline" />
+		</layout>
+	</appender>
+</log4net>
+
+{
+  "username": "ABC",
+  "password": "abc12345"
+  }
+
+{
+  "username": "XYZ",
+  "password": "xyz12345"
+}
+
+
+Scaffold-DbContext "<COnnection STring here>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

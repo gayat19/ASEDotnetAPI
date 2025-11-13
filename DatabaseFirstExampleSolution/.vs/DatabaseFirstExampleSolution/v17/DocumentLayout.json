@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\titleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\titleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\titleauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\titleauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\roysched.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\roysched.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\pubinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\pubinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\databasefirstexamplesolution\\databasefirstexampleapi\\models\\pubscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3584A8F-874D-4207-8F66-84E95780180F}|DatabaseFirstExampleAPI\\DatabaseFirstExampleAPI.csproj|solutionrelative:databasefirstexampleapi\\models\\pubscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Titleview.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Titleview.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Titleview.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Titleview.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Titleview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:22:06.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Titleauthor.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Titleauthor.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Titleauthor.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Titleauthor.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Titleauthor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:22:04.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Title.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Title.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Title.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Title.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Title.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:22:03.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Store.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Store.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:22:02.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Sale.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:22:01.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Roysched.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Roysched.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Roysched.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Roysched.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Roysched.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:22:00.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Publisher.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Publisher.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Publisher.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Publisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:21:59.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PubInfo.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\PubInfo.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\PubInfo.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\PubInfo.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\PubInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:21:58.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Job.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Job.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Job.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:21:58.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Employee.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:21:57.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Discount.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Discount.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Discount.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Discount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:21:56.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\Author.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:21:55.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PubsContext.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\PubsContext.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstExampleAPI\\Models\\PubsContext.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\DatabaseFirstExampleSolution\\DatabaseFirstExampleAPI\\Models\\PubsContext.cs",
+              "RelativeToolTip": "DatabaseFirstExampleAPI\\Models\\PubsContext.cs",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAAwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:21:20.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
