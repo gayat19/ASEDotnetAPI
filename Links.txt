@@ -14,3 +14,4 @@ https://www.geeksforgeeks.org/system-design/solid-principle-in-programming-under
 
 
 Scaffold-DbContext "<COnnection STring here>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+https://learn.microsoft.com/en-us/azure/architecture/patterns/saga

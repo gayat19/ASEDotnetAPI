@@ -236,3 +236,96 @@ SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
 FROM "Users" AS "u"
 WHERE "u"."Username" = @__key_0
 LIMIT 2
+2025-11-13 11:10:03,219 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 11:10:03,480 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 11:10:03,484 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 11:10:03,488 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 11:15:18,410 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (20ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 11:16:06,709 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?', @p3='?' (DbType = Int32), @p4='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-11-13 11:16:23,700 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?', @p3='?' (DbType = Int32), @p4='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-11-13 11:16:25,023 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?', @p3='?' (DbType = Int32), @p4='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-11-13 11:16:32,022 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?', @p3='?' (DbType = Int32), @p4='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-11-13 11:17:58,282 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:17:58,296 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
+2025-11-13 11:19:01,842 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 11:19:03,281 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:19:03,285 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
+2025-11-13 11:19:18,703 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:19:18,707 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
+2025-11-13 11:19:41,599 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 11:19:43,411 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:19:43,416 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
+2025-11-13 11:19:48,898 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:19:48,901 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
+2025-11-13 11:20:00,191 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:20:00,195 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
+2025-11-13 11:20:16,810 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:20:16,814 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
+2025-11-13 11:20:23,689 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:20:23,692 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
+2025-11-13 11:21:23,813 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?' (Size = 66), @p3='?' (DbType = Int32), @p4='?' (Size = 10)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-11-13 11:21:27,620 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Products" AS "p"
+2025-11-13 11:21:27,622 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."IsAvailable", "p"."Price", "p"."ProductImage", "p"."StockInHand", "p"."Title"
+FROM "Products" AS "p"
