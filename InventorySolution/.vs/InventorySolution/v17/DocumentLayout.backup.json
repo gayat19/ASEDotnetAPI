@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -29,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dtos\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C804AFF-BF86-4803-99FF-DFB7A76FD6A1}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CEC10972-DDA0-43F0-8B65-54407CDCEEE4}|InventoryAPITest\\InventoryAPITest.csproj|c:\\users\\gayat\\desktop\\dotnetapidevelpoment\\inventorysolution\\inventoryapitest\\productrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEC10972-DDA0-43F0-8B65-54407CDCEEE4}|InventoryAPITest\\InventoryAPITest.csproj|solutionrelative:inventoryapitest\\productrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,102 +126,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\UserController.cs*",
-              "RelativeToolTip": "InventoryAPI\\Controllers\\UserController.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAADwvyYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T01:18:57.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "log4net.config",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\log4net.config",
-              "RelativeDocumentMoniker": "InventoryAPI\\log4net.config",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\log4net.config",
-              "RelativeToolTip": "InventoryAPI\\log4net.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-13T00:50:05.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "InventoryAPI\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA8AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:47:10.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "InventoryAPI\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "InventoryAPI\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:41:51.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "InventoryAPI\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "InventoryAPI\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:36:47.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "InventoryAPI\\Models\\Dtos\\LoginResponse.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\LoginResponse.cs",
-              "RelativeToolTip": "InventoryAPI\\Models\\Dtos\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:30:09.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "InventoryAPI\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\User.cs",
-              "RelativeToolTip": "InventoryAPI\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:23:40.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Repositories\\Repository.cs",
@@ -217,38 +138,169 @@
               "RelativeToolTip": "InventoryAPI\\Repositories\\Repository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:11:02.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:11:02.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "InventoryAPI\\Services\\UserService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswDMAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:53:22.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\appsettings.json",
+              "RelativeToolTip": "InventoryAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T01:47:14.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "InventoryAPI\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T01:46:17.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Program.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Program.cs*",
-              "RelativeToolTip": "InventoryAPI\\Program.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAwCIAAAA3AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Program.cs",
+              "RelativeToolTip": "InventoryAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T07:22:08.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "InventoryAPI\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Services\\UserService.cs",
-              "RelativeToolTip": "InventoryAPI\\Services\\UserService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCkAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "InventoryAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvzkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:53:22.943Z",
+              "WhenOpened": "2025-11-13T01:18:57.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "InventoryAPI\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:37:52.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\User.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:23:40.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\Dtos\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\LoginResponse.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\Dtos\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:30:09.207Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "InventoryAPI\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T02:27:32.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "InventoryAPI\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:36:47.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "InventoryAPI\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T01:45:14.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "InventoryAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:47:10.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "log4net.config",
+              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\log4net.config",
+              "RelativeDocumentMoniker": "InventoryAPI\\log4net.config",
+              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\log4net.config",
+              "RelativeToolTip": "InventoryAPI\\log4net.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-13T00:50:05.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ProductMapper.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Misc\\ProductMapper.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Misc\\ProductMapper.cs",
@@ -256,12 +308,11 @@
               "RelativeToolTip": "InventoryAPI\\Misc\\ProductMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T07:34:17.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T07:34:17.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\LoginRequest.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Models\\Dtos\\LoginRequest.cs",
@@ -269,12 +320,11 @@
               "RelativeToolTip": "InventoryAPI\\Models\\Dtos\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:29:43.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:29:43.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Models\\Dtos\\RegisterRequest.cs",
@@ -282,12 +332,11 @@
               "RelativeToolTip": "InventoryAPI\\Models\\Dtos\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:25:40.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:25:40.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Repositories\\ProductRepository.cs",
@@ -295,12 +344,11 @@
               "RelativeToolTip": "InventoryAPI\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:11:03.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:11:03.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Services\\ProductService.cs",
@@ -308,12 +356,11 @@
               "RelativeToolTip": "InventoryAPI\\Services\\ProductService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwBMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T07:27:04.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T07:27:04.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "RegisterResponse.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\RegisterResponse.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Models\\Dtos\\RegisterResponse.cs",
@@ -321,12 +368,11 @@
               "RelativeToolTip": "InventoryAPI\\Models\\Dtos\\RegisterResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:28:53.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:28:53.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "ProductRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPITest\\ProductRepositoryTest.cs",
               "RelativeDocumentMoniker": "InventoryAPITest\\ProductRepositoryTest.cs",
@@ -334,12 +380,11 @@
               "RelativeToolTip": "InventoryAPITest\\ProductRepositoryTest.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:11:10.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:11:10.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "InventoryContext.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Contexts\\InventoryContext.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Contexts\\InventoryContext.cs",
@@ -347,12 +392,11 @@
               "RelativeToolTip": "InventoryAPI\\Contexts\\InventoryContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:10:00.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:10:00.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Models\\Invoice.cs",
@@ -360,12 +404,11 @@
               "RelativeToolTip": "InventoryAPI\\Models\\Invoice.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAkwA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:09:52.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:09:52.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Interfaces\\IRepository.cs",
@@ -373,25 +416,11 @@
               "RelativeToolTip": "InventoryAPI\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:10:58.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:10:58.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "InventoryAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T07:37:52.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "InvoiceProduct.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\InvoiceProduct.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Models\\InvoiceProduct.cs",
@@ -399,12 +428,11 @@
               "RelativeToolTip": "InventoryAPI\\Models\\InvoiceProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:09:53.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:09:53.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Product.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Models\\Product.cs",
@@ -412,12 +440,11 @@
               "RelativeToolTip": "InventoryAPI\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:09:41.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:09:41.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "DummyController.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Controllers\\DummyController.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\DummyController.cs",
@@ -425,12 +452,11 @@
               "RelativeToolTip": "InventoryAPI\\Controllers\\DummyController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:09:28.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T00:09:28.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "AddProductResponse.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Models\\Dtos\\AddProductResponse.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Models\\Dtos\\AddProductResponse.cs",
@@ -438,12 +464,11 @@
               "RelativeToolTip": "InventoryAPI\\Models\\Dtos\\AddProductResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T07:26:08.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T07:26:08.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\gayat\\Desktop\\DotnetAPIDevelpoment\\InventorySolution\\InventoryAPI\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "InventoryAPI\\Interfaces\\IProductService.cs",
@@ -451,8 +476,7 @@
               "RelativeToolTip": "InventoryAPI\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T07:25:11.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T07:25:11.963Z"
             }
           ]
         }

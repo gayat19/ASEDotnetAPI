@@ -33,3 +33,57 @@ FROM "Users" AS "u"
 WHERE "u"."Username" = @__key_0
 LIMIT 2
 2025-11-13 07:00:05,959 [.NET TP Worker] ERROR InventoryAPI.Controllers.UserController - Invalid Password
+2025-11-13 07:36:01,811 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 07:36:01,892 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 07:36:01,894 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 07:36:01,897 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 07:36:26,200 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (13ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 08:05:07,641 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 08:05:07,738 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 08:05:07,742 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 08:05:07,745 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 08:07:24,930 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (35ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 08:09:32,189 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?' (Size = 6), @p3='?' (DbType = Int32), @p4='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-11-13 08:11:10,056 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 08:11:10,144 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 08:11:10,146 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 08:11:10,148 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 08:11:49,573 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?' (Size = 6), @p3='?' (DbType = Int32), @p4='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-11-13 08:13:50,924 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 08:13:51,188 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 08:13:51,191 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 08:13:51,194 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 08:14:38,326 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (20ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (Size = 32) (DbType = Binary), @p2='?' (Size = 64) (DbType = Binary), @p3='?' (Size = 4)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Users" ("Username", "Password", "PasswordHash", "Role")
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-13 08:16:42,172 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5180
+2025-11-13 08:16:42,244 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-11-13 08:16:42,247 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-11-13 08:16:42,249 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\gayat\Desktop\DotnetAPIDevelpoment\InventorySolution\InventoryAPI
+2025-11-13 08:16:52,658 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?' (Size = 6), @p3='?' (DbType = Int32), @p4='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-11-13 08:17:17,003 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (Size = 3)], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Username", "u"."Password", "u"."PasswordHash", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Username" = @__key_0
+LIMIT 2
+2025-11-13 08:18:04,245 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Decimal), @p2='?' (Size = 6), @p3='?' (DbType = Int32), @p4='?' (Size = 6)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Products" ("IsAvailable", "Price", "ProductImage", "StockInHand", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";

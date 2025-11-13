@@ -1,5 +1,6 @@
 ﻿using InventoryAPI.Interfaces;
 using InventoryAPI.Models.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +16,7 @@ namespace InventoryAPI.Controllers
         {
             _productService = productService;
         }
-
+        [Authorize(Roles ="admin")]
         [HttpPost]
         public ActionResult CreateNewProduct([FromBody] AddProductRequest product)
         {

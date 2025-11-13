@@ -13,14 +13,17 @@ namespace InventoryAPI.Services
         private readonly IRepository<string, User> _userRepository;
         private readonly IMapper _mapper;
         private readonly ILogger<UserService> _logger;
+        private readonly ITokenService _tokenService;
 
         public UserService(IRepository<string,User> userRepository,
+                            ITokenService tokenService,
                             IMapper mapper,
                             ILogger<UserService> logger) 
         {
             _userRepository = userRepository;
             _mapper = mapper;
             _logger = logger;
+            _tokenService = tokenService;
         }
 
         public LoginResponse Login(LoginRequest request)
@@ -38,10 +41,15 @@ namespace InventoryAPI.Services
             return new LoginResponse
             {
                 Username = request.Username,
-                Token = ""
+                Token = _tokenService.CreateToken(request.Username,dbUser.Role)
             };
         }
-
+        /// <summary>
+        /// This method registers a new user
+        /// </summary>
+        /// <param name="request">Needs the username and password</param>
+        /// <returns>Gives back an object withj username</returns>
+        /// <exception cref="Exception">If the registration fails then thows this one</exception>
         public RegisterResponse Register(RegisterRequest request)
         {
             byte[] key;
