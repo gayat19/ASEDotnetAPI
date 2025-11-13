@@ -32,5 +32,37 @@ namespace InventoryAPI.Services
             };
 
         }
+
+        public List<ProductDto> GetAllProducts(ProductSearchDto? searchDto)
+        {
+            var products = _productRepository.GetAll().ToList();
+            if (searchDto == null)
+               return _mapper.Map<List<ProductDto>>(products);
+            
+            if (searchDto.Title != null)
+            products = products
+                .Where(p => p.Title==searchDto.Title).ToList();
+
+            if(searchDto.PriceRange != null && searchDto.PriceRange.Min<searchDto.PriceRange.Max)
+                    products = products
+                        .Where(p => p.Price >= searchDto.PriceRange.Min && p.Price<= searchDto.PriceRange.Max).ToList();
+
+            if(searchDto.IsInStock != null)
+                products = products
+                    .Where(p => searchDto.IsInStock == true ? p.StockInHand>0 : p.StockInHand==0).ToList();
+
+            if(searchDto.SortOrder == 1)
+            {
+                products = products
+                    .OrderBy(p => p.Price).ToList();
+                return _mapper.Map<List<ProductDto>>(products);
+            }
+            else
+            {
+                products = products
+                    .OrderByDescending(p => p.Price).ToList();
+                return _mapper.Map<List<ProductDto>>(products);
+            }
+        }
     }
 }
